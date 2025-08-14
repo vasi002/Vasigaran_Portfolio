@@ -1,0 +1,38 @@
+.coding-container {
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.profile-card {
+  border: 2px solid #00ffea;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  min-width: 180px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  background-color: #00ffea;
+  color: #000;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
