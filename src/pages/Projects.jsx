@@ -12,6 +12,13 @@ const projectData = [
     github: "#"
   },
   {
+    title: "Ecommerce Website testing",
+    description: "Website tesing in Automation by using Selenium in java",
+    tech: ["JAVA","Selenium"],
+    link: "#",
+    github: "#"
+  },
+  {
     title: "Object Detection System",
     description: "YOLOv8 + PyTorch model to detect medical items in images.",
     tech: ["Python", "YOLOv8", "PyTorch"],
