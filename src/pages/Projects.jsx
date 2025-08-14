@@ -11,6 +11,13 @@ const projectData = [
     link: "#",
     github: "#"
   },
+   {
+    title: "Ecommerce Website testing",
+    description: "Website tesing in Automation by using Selenium in java",
+    tech: ["JAVA","Selenium"],
+    link: "#",
+    github: "#"
+  },
   {
     title: "Ecommerce Website testing",
     description: "Website tesing in Automation by using Selenium in java",

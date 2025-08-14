@@ -1,4 +1,6 @@
+
 import React from "react";
+import { motion } from "framer-motion";
 import "./Articles.css";
 
 const articles = [
@@ -24,7 +26,7 @@ const articles = [
       "Real-time object detection is powerful — but speed and accuracy are often at odds. In my final year project, I implemented YOLOv8 with PyTorch and OpenCV, then fine-tuned performance metrics to achieve faster detection without compromising accuracy. Here’s how I approached optimization, the tools I used, and the results I achieved.",
   },
   {
-    title: "The Top Five Tools I Use Every Day as a Developer & Tester",
+    title: "The Top 5 Tools I Use Every Day as a Developer & Tester",
     seoTitle:
       "My Essential Developer & QA Toolkit — From Selenium to Postman",
     intro:

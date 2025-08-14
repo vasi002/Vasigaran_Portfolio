@@ -1,8 +1,19 @@
 .articles-page {
   padding: 50px;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: radial-gradient(circle, rgba(0,255,234,0.3), transparent 70%);
   min-height: 100vh;
   color: white;
+}
+
+.gradient-blur {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0,255,234,0.3), transparent 70%);
+  top: -100px;
+  left: -100px;
+  filter: blur(120px);
+  z-index: 0;
 }
 
 .articles-heading {
@@ -18,11 +29,11 @@
 }
 
 .article-card {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00ffea;
+  padding: 1.5rem;
   border-radius: 12px;
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s ease, background 0.3s ease;
+  margin-bottom: 1.5rem;
 }
 
 .article-card:hover {
@@ -32,7 +43,7 @@
 
 .article-card h2 {
   font-size: 1.4rem;
-  color: #ff6f61;
+  color: #52c8dd;
 }
 
 .seo-title {
@@ -50,7 +61,7 @@
 .read-more {
   display: inline-block;
   margin-top: 10px;
-  color: #ff6f61;
+  color: #52c8dd;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
