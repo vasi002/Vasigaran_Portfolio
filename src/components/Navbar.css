@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -54,8 +54,45 @@
 .nav-link.active {
   color: #00ffea;
   font-weight: 700;
-}
+} */
 
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="navbar">
+      <div className="nav-logo">Vasigaran</div>
+
+      {/* Desktop & Mobile Links */}
+      <div className={`nav-links ${isOpen ? "open" : ""}`}>
+        <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
+        <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
+        <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+        <Link to="/skills" onClick={() => setIsOpen(false)}>Skills</Link>
+        <Link to="/resume" onClick={() => setIsOpen(false)}>Resume</Link>
+        <Link to="/articles" onClick={() => setIsOpen(false)}>Articles</Link>
+        <Link to="/coding" onClick={() => setIsOpen(false)}>Coding Profiles</Link>
+        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+      </div>
+
+      {/* Three-dot menu for mobile */}
+      <div
+        className={`three-dots ${isOpen ? "active" : ""}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
 
 
 
