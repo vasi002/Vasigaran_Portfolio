@@ -52,7 +52,7 @@ const Articles = () => {
             <h4 className="seo-title">{article.seoTitle}</h4>
             <p>{article.intro}</p>
             <a href="#" className="read-more">
-              Read More →
+              Read More  →
             </a>
           </div>
         ))}
