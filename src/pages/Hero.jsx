@@ -7,7 +7,6 @@ import { OrbitControls } from "@react-three/drei";
 import { Typewriter } from "react-simple-typewriter";
 import ParticleBackground from "../components/ParticleBackground";
 import GradientBlobs from "../components/GradientBlobs";
-import profileImg from "../assets/Vasi.jpg";
 import "./Hero.module.css";
 
 function Hero() {
