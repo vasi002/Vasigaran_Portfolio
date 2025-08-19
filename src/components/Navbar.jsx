@@ -43,7 +43,12 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="nav-logo">Vasigaran</div>
+      {/* <div className="nav-logo">Vasigaran</div> */}
+      <div className="nav-logo">
+  <span className="logo-icon">🤩</span>
+  <span className="logo-text">Vasi</span>
+</div>
+
 
       {/* Desktop & Mobile Links */}
       <div className={`nav-links ${isOpen ? "open" : ""}`}>

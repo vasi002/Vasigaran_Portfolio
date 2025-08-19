@@ -69,10 +69,22 @@
   z-index: 1000;
 }
 
-.nav-logo {
+/* .nav-logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
+} */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff; /* Indigo */
+}
+
+.logo-icon {
+  margin-right: 8px;
+  color: #ee2222; /* Cyan */
 }
 
 .nav-links {
