@@ -27,7 +27,7 @@ function About() {
         hands-on technical work to build and test scalable, responsive web solutions.
       </motion.p>
 
-      <motion.div className="timeline" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.4 }}>
+      <motion.div className="timeline" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1}}>
         <div className="timeline-item">
           <div className="timeline-date">Dec 2024 – Present</div>
           <div className="timeline-content">

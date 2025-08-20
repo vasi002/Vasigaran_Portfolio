@@ -21,11 +21,7 @@ function Contact() {
         <input type="text" placeholder="Your Name" required />
         <input type="email" placeholder="Your Email" required />
         <textarea rows="5" placeholder="Your Message" required></textarea>
-        <motion.button
-          whileTap={{ scale: 0.95 }}
-          className="send-btn"
-          type="submit"
-        >
+        <motion.button whileTap={{ scale: 1 }} className="send-btn"type="submit">
           Send Message
         </motion.button>
       </form>

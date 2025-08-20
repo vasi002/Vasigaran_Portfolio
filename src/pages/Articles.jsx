@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import "./Articles.css";
@@ -41,20 +40,34 @@ const articles = [
   },
 ];
 
+// Animation variants
+const cardVariants = {
+  hidden: { opacity: 0, y: 50, scale: 0.95 },
+  visible: { opacity: 1, y: 0, scale: 1 },
+};
+
 const Articles = () => {
   return (
     <section className="articles-page">
       <h1 className="articles-heading">Articles & Insights</h1>
       <div className="articles-grid">
         {articles.map((article, index) => (
-          <div className="article-card" key={index}>
+          <motion.div
+            className="article-card"
+            key={index}
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
+          >
             <h2>{article.title}</h2>
             <h4 className="seo-title">{article.seoTitle}</h4>
             <p>{article.intro}</p>
             <a href="#" className="read-more">
-              Read More  →
+              Read More →
             </a>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
