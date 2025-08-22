@@ -7,6 +7,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Typewriter } from "react-simple-typewriter";
 import ParticleBackground from "../components/ParticleBackground";
 import GradientBlobs from "../components/GradientBlobs";
+
 import "./Hero.module.css";
 
 function Hero() {
@@ -53,6 +54,7 @@ function Hero() {
           <a href="/projects" className="cta-btn">View Projects</a>
           <a href="/contact" className="cta-btn">Contact Me</a>
         </motion.div> */}
+        
       </div>
 
       <Canvas style={{ height: 300, width: 300, position: "absolute", bottom: 50, right: 50 }}>
