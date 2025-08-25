@@ -44,10 +44,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* <div className="nav-logo">Vasigaran</div> */}
-      <div className="nav-logo">
+      {/* <div className="nav-logo">
   <span className="logo-icon">🤩</span>
   <span className="logo-text">Vasi</span>
-</div>
+</div> */}
 
 
       {/* Desktop & Mobile Links */}
