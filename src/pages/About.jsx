@@ -37,7 +37,7 @@ function About() {
               <li> Performed end-to-end software development and testing activities across multiple projects.</li>
               <li> Executed both manual and automated testing using Selenium, and prepared comprehensive test cases.</li>
               <li> Worked with Microsoft SQL for test data validation and backend verification.</li>
-              <li> Developed responsive and user-friendly web application interfaces using HTML, CSS, and Bootstrap.</li>
+              <li> Developed responsive and user-friendly web application interfaces using HTML,CSS, and Bootstrap.</li>
               <li> Identified, documented,and tracked software defects using JIRA, ensuring timely resolution.</li>
             </ul>
           </div>
