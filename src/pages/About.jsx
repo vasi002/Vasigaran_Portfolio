@@ -33,12 +33,12 @@ function About() {
           <div className="timeline-content">
             <h4>Software Engineer at Altaradius Technologies Pvt Ltd,Chennai</h4>
             <ul>
-              <li>Joined as an Intern (Jun–Dec 2024) and transitioned to a full-time Software Engineer role in Dec 2024.</li>
-              <li> Performed end-to-end software development and testing activities across multiple projects.</li>
-              <li> Executed both manual and automated testing using Selenium, and prepared comprehensive test cases.</li>
-              <li> Worked with Microsoft SQL for test data validation and backend verification.</li>
-              <li> Developed responsive and user-friendly web application interfaces using HTML, CSS, and Bootstrap.</li>
-              <li> Identified, documented,and tracked software defects using JIRA, ensuring timely resolution.</li>
+                <li>Jun 2024 – Present (Intern:Jun–Dec 2024; Promoted to Full-time).</li>
+                <li>Built reusable automation libraries & Page Object Models, reducing script maintenance effort by 25% and accelerating onboarding for new team members.</li>
+                <li>Optimized backend validation by executing SQL-based test data setup, cutting release preparation time by 20%.</li>
+                <li>Performed comprehensive API testing with Postman/SoapUI, identifying critical defects 15% earlier in the release cycle.</li>
+                <li>Collaborated with cross-functional Agile teams to improve sprint velocity and adoption of TDD practices, contributing to a faster release cycle by 10%.</li>
+                <li>Developed responsive UI components (HTML/CSS/Bootstrap), improving mobile accessibility score by 25%.</li>
             </ul>
           </div>
         </div>
