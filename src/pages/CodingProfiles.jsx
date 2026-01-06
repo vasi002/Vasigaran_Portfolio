@@ -20,7 +20,6 @@ function CodingProfiles() {
       >
         Coding Profiles
       </motion.h2>
-
       <div className="profile-grid">
         {profiles.map((profile, index) => (
           <motion.a
