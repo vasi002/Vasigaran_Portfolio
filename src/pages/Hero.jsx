@@ -48,12 +48,12 @@ function Hero() {
         <motion.p initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.5 }} style={{ fontSize: "1.2rem", maxWidth: "600px", margin: "0 auto" }}>
           Software Engineer specializing in Web Development, Automation Testing & AI Solutions
         </motion.p>
-{/* 
+
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2 }} style={{ marginTop: "2rem", display: "flex", justifyContent: "center", gap: "1rem" }}>
           <a href="/resume" className="cta-btn">Download Resume</a>
           <a href="/projects" className="cta-btn">View Projects</a>
           <a href="/contact" className="cta-btn">Contact Me</a>
-        </motion.div> */}
+        </motion.div>
         
       </div>
 
