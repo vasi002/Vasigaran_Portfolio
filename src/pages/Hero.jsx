@@ -46,7 +46,7 @@ function Hero() {
         </motion.h1>
 
         <motion.p initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.5 }} style={{ fontSize: "1.2rem", maxWidth: "600px", margin: "0 auto" }}>
-          Software Engineer specializing in Web, Automation Testing & AI Solutions
+          Software Engineer specializing in Web Development, Automation Testing & AI Solutions
         </motion.p>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2 }} style={{ marginTop: "2rem", display: "flex", justifyContent: "center", gap: "1rem" }}>
