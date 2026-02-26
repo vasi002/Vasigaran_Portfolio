@@ -140,6 +140,10 @@ function Hero() {
         >
           <a href="/projects" className={styles.primaryBtn}>View Projects</a>
           <a href="/contact" className={styles.secondaryBtn}>Contact Me</a>
+          <a href="https://www.linkedin.com/in/vasigaran-r-948ab8203/" target="_blank" rel="noopener noreferrer" className={styles.primaryBtn}>LinkedIn</a>
+          <a href="https://github.com/vasi002" target="_blank" rel="noopener noreferrer" className={styles.secondaryBtn}>GitHub</a>
+          <a href="https://www.instagram.com/mr_vasi._/?next=%2F" target="_blank" rel="noopener noreferrer" className={styles.primaryBtn}>Instagram</a>
+
         </motion.div>
       </div>
 
